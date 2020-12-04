@@ -4,7 +4,7 @@ pipeline  {
         stage('Git-Checkout') {
             steps {
                     echo "Checking out from Git Repo";
-                    git 'https://github.com/kapahnke-iot/Pipeline_Script.git'
+
             }
         }
 
